@@ -15,6 +15,7 @@ public class Kata2 {
         for(Map.Entry<Integer, Integer> entry : histogramGenerator.getHistogram().entrySet()) {
             System.out.println("Key = "+entry.getKey()+", Value = "+entry.getValue());
         }
+        
     }
     
 }
