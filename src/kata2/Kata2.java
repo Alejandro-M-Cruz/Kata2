@@ -11,9 +11,9 @@ public class Kata2 {
         String[] data = {"","Pablo","Juan","Pedro","María","Pablo","Pablo","Pedro","","Juan","María","José"};
         
         HistogramGenerator histogramGenerator = new HistogramGenerator(data);
-        Map<Integer,Integer> histogram = histogramGenerator.getHistogram();
+        Map<String,Integer> histogram = histogramGenerator.getHistogram();
         
-        for(Map.Entry<Integer, Integer> entry : histogram.entrySet()) {
+        for(Map.Entry<String, Integer> entry : histogram.entrySet()) {
             System.out.println(entry.getKey()+" -> "+entry.getValue());
         }
         
